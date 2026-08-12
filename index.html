@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Itens</title>
+  <!-- Link para o arquivo CSS externo -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563eb">
+<link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Lista de Itens</h1>
+    
+    <form id="item-form" class="input-group">
+      <input type="text" id="item-input" placeholder="Novo item..." autocomplete="off">
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista-itens">
+      <div class="empty-state">Nenhum item adicionado.</div>
+    </ul>
+  </div>
+
+  <!-- Link para o arquivo JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
